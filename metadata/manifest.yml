@@ -3,7 +3,7 @@ Cartridge-Short-Name: NGINX
 Display-Name: Nginx
 Version: "1.10.0"
 Versions: ["1.6.2", "1.7.10", "1.8.0", "1.9.9","1.9.12","1.10.0"]
-Website: https://github.com/boekkooi/openshift-cartridge-nginx
+Website: https://github.com/StephanieSunshine/openshift-cartridge-nginx
 Cartridge-Version: 0.0.4
 Cartridge-Vendor: boekkooi
 Categories:

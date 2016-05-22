@@ -10,7 +10,7 @@ fi
 # Configure versions
 NGINX_VERSION="${1}"
 ZLIB_VERSION='1.2.8'
-PCRE_VERSION='8.36'
+PCRE_VERSION='8.38'
 
 # package names
 pkg=nginx-${NGINX_VERSION}.tar.gz
@@ -44,6 +44,7 @@ pushd nginx-${NGINX_VERSION}
 ./configure \
     --with-http_ssl_module \
     --with-http_sub_module \
+    --with-http_dav_module \
     --with-zlib=${BUILD_DIR}/zlib-${ZLIB_VERSION} \
     --with-pcre=${BUILD_DIR}/pcre-${PCRE_VERSION} \
     --with-http_ssl_module \

@@ -56,3 +56,4 @@ Endpoints:
       - Frontend:      "/health"
         Backend:       ""
         Options:       { health: true }
+Source-Url: https://github.com/StephanieSunshine/openshift-cartridge-nginx/archive/master.zip
